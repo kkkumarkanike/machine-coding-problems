@@ -1,0 +1,50 @@
+.mail-box-container{
+     display: flex;
+}
+
+.mail-box-container> hr{
+/* padding: 1px; */
+background-color: #eee;
+/* height: 100%; */
+margin: 0;
+/* padding: 0; */
+height: 100vh;
+}
+
+.mail-types{
+     width: 20vw;
+     height: 100%;
+}
+.mails{
+     width: 30vw;
+     height: 100%;
+}
+.mail-details{
+     width: 40vw;
+     height: 100%;
+}
+
+.read-mail{
+     padding: 10px;
+     border: 1px solid #ccc;
+     margin: 8px;
+     background-color: #eee;
+     cursor: pointer;
+}
+
+.unread-mail{
+     cursor: pointer;
+     padding: 10px;
+     border: 1px solid #ccc;
+     margin: 8px;
+     cursor: pointer;
+}
+
+.mail-description{
+     padding: 10px;
+}
+
+.mail-description> .subject{
+     font-size: 30px;
+     font-weight: bold;
+}
